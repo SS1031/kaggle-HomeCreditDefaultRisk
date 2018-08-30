@@ -1,0 +1,17 @@
+{
+  "feature": {
+    "use_features": [
+      "app_te",
+      "sim_app",
+      "sim_bur_bbl",
+      "sim_prv",
+      "sim_pcb",
+      "sim_inp",
+      "sim_ccb",
+      "ccb_wavg",
+      "pcb_wavg"
+    ],
+    "random_seed": 0
+  },
+  "max_eval": 50
+}

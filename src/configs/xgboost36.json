@@ -1,0 +1,32 @@
+{
+  "config_set": [
+    {
+      "feature": {
+        "use_features": [
+          "application"
+        ],
+        "selection": [
+          {
+            "method": "missing",
+            "threshold": 0.9
+          }
+        ]
+      },
+      "random_seed": 0,
+      "model": {
+        "name": "xgboost",
+        "model_params": {
+          "boosting_type": "gbtree",
+          "objective": "binary:logistic",
+          "eval_metric": "auc",
+          "learning_rate": 0.1,
+          "silent": 1
+        },
+        "train_params": {
+          "num_boost_round": 10000,
+          "early_stopping_rounds": 100
+        }
+      }
+    }
+  ]
+}

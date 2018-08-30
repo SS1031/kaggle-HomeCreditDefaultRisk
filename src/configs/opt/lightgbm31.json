@@ -1,0 +1,20 @@
+{
+    "feature": {
+        "use_features": [
+            "application"
+        ],
+        "selection": [
+            {
+                "method": "missing",
+                "threshold": 0.9
+            },
+            {
+                "method": "lgb_importance",
+                "threshold": 1,
+                "iteration": 5
+            }
+        ]
+    },
+    "max_eval": 50,
+    "random_seed": 0
+}

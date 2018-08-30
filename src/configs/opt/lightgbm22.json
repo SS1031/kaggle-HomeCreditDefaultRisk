@@ -1,0 +1,104 @@
+{
+  "feature": {
+    "use_features": [
+      "application",
+      "application_aggregation",
+      "bureau",
+      "bureau_aggregation",
+      "bureau_balance_latest_status",
+      "credit_card_balance",
+      "credit_card_balance_aggregation",
+      "credit_card_balance_updown",
+      "credit_card_balance_timeseries_lda",
+      "ccb_wavg",
+      "pcb_wavg",
+      "pos_cash_balance_aggregation",
+      "pos_cash_balance_timeseries_lda",
+      "previous_application_aggregation",
+      "previous_application_timeseries_lda",
+      "installment_payments_aggregation",
+      [
+        "pos_cash_balance",
+        [
+          [
+            10,
+            50,
+            100,
+            500
+          ],
+          [
+            1,
+            5,
+            10,
+            20,
+            50,
+            100
+          ],
+          4
+        ]
+      ],
+      [
+        "previous_application",
+        [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ]
+      ],
+      [
+        "installment_payments",
+        [
+          [
+            10,
+            50,
+            100,
+            500
+          ],
+          [
+            [
+              5,
+              20
+            ],
+            [
+              5,
+              50
+            ],
+            [
+              10,
+              50
+            ],
+            [
+              10,
+              100
+            ],
+            [
+              20,
+              100
+            ]
+          ],
+          [
+            1,
+            5,
+            10,
+            20,
+            50,
+            100
+          ],
+          4
+        ]
+      ]
+    ],
+    "selection": [
+      {
+        "method": "missing",
+        "threshold": 0.9
+      }
+    ],
+    "random_seed": 0
+  },
+  "max_eval": 30
+}

@@ -1,0 +1,46 @@
+{
+    "feature": {
+        "use_features": [
+            "app",
+            "app_add",
+            "app_te",
+            "app_ce",
+            "app_ohe_pca",
+            "bur_ohe_sum",
+            "bur_ohe_norm",
+            "bur_agg",
+            "bbl_agg",
+            "pcb_agg",
+            "ccb_agg",
+            "prv_agg",
+            "inp_agg",
+            "ccb_wavg",
+            "pcb_wavg"
+        ],
+        "random_seed": 0
+    },
+    "model": {
+        "name": "lightgbm",
+        "model_params": {
+            "boosting_type": "gbdt",
+            "objective": "binary",
+            "metric": "auc",
+            "learning_rate": 0.05,
+            "num_leaves": 34,
+            "min_data_in_leaf": 1,
+            "verbose": 0,
+            "colsample_bytree": 0.9497036,
+            "subsample": 0.8715623,
+            "max_depth": 8,
+            "reg_alpha": 0.041545473,
+            "reg_lambda": 0.0735294,
+            "min_split_gain": 0.0222415,
+            "min_child_weight": 39.3259775,
+            "device": "gpu"
+        },
+        "train_params": {
+            "num_boost_round": 10000,
+            "early_stopping_rounds": 30
+        }
+    }
+}

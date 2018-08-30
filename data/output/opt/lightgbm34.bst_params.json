@@ -1,0 +1,12 @@
+{
+  "reg_lambda": 43.583791877378005,
+  "min_gain_to_split": 0.511662535206251,
+  "num_leaves": 12,
+  "subsample": 0.9230620145879096,
+  "max_bin": 260,
+  "subsample_freq": 5,
+  "reg_alpha": 0.03691596434696839,
+  "scale_pos_weight": 0.9950900434773284,
+  "colsample_bytree": 0.04902499110259584,
+  "min_data_in_leaf": 128
+}

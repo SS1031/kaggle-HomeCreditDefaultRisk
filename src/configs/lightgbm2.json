@@ -1,0 +1,37 @@
+{
+    "feature": {
+        "use_features": [
+            "app",
+            "app_add",
+            "app_te",
+            "app_ce",
+            "app_ohe_pca",
+            "bur_ohe_sum",
+            "bur_ohe_ratio",
+            "bur_agg",
+            "bbl_agg",
+            "pcb_agg",
+            "ccb_agg",
+            "prv_agg",
+            "inp_agg"
+        ],
+        "random_seed": 123
+    },
+    "model": {
+        "name": "lightgbm",
+        "model_params": {
+            "boosting_type": "gbdt",
+            "objective": "binary",
+            "metric": "auc",
+            "learning_rate": 0.08,
+            "num_leaves": 23,
+            "min_data_in_leaf": 1,
+            "verbose": 0,
+            "device": "gpu"
+        },
+        "train_params": {
+            "num_boost_round": 1000,
+            "early_stopping_rounds": 30
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "reg_alpha": 0.0807597156968717,
+  "colsample_bytree": 0.053307677464377215,
+  "max_bin": 300,
+  "learning_rate": 0.06713631496826826,
+  "max_depth": 16,
+  "reg_lambda": 0.06319118917208287,
+  "subsample": 0.8562556897774085,
+  "min_data_in_leaf": 34,
+  "num_leaves": 58,
+  "subsample_freq": 3,
+  "scale_pos_weight": 0.933695657724612,
+  "min_sum_hessian_in_leaf": 29.77371379188427
+}

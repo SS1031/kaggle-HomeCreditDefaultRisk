@@ -1,0 +1,12 @@
+{
+  "lambda_l1": 0.06113802740596991,
+  "min_sum_hessian_in_leaf": 36.915605929488116,
+  "learning_rate": 0.09456568630272134,
+  "min_gain_to_split": 0.385369751565065,
+  "subsample": 0.9999189182053174,
+  "min_data_in_leaf": 14,
+  "colsample_bytree": 0.4623274626130554,
+  "num_leaves": 122,
+  "lambda_l2": 0.049552029420237446,
+  "max_depth": 14
+}

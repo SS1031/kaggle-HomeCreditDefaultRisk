@@ -1,0 +1,10 @@
+{
+  "min_data_in_leaf": 85,
+  "max_bin": 494,
+  "is_unbalance": true,
+  "boosting_type": {
+    "subsample": 1.0,
+    "boosting_type": "goss"
+  },
+  "num_leaves": 85
+}
